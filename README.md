@@ -64,3 +64,7 @@ egg, onion, tomato
 * Personalized meal planning
 * Nutrition analysis
 * Multi-language support
+  
+  ## RAG Implementation
+  
+The project uses `recipes.csv` as a recipe knowledge base. Based on user-entered ingredients, the app retrieves the most relevant recipes and sends them as context to IBM Granite 4h Small for final recipe generation.
