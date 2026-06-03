@@ -74,18 +74,4 @@ The project uses `recipes.csv` as a recipe knowledge base. Based on user-entered
 
 ## RAG Workflow
 
-User Ingredients
-        ↓
-Recipe Knowledge Base (recipes.csv)
-        ↓
-Recipe Retrieval
-        ↓
-Context Augmentation
-        ↓
-IBM Granite 4h Small
-        ↓
-Recipe Generation
-        ↓
-Final Recipe Response
-
-The system retrieves relevant recipes from the recipe knowledge base and uses IBM Granite to generate personalized cooking instructions, substitutions, cooking tips, and dietary recommendations.
+The Smart Recipe Preparation Agent follows a Retrieval-Augmented Generation (RAG) workflow. When users provide available ingredients, the system retrieves the most relevant recipes from the recipes.csv knowledge base. The retrieved recipe information is then used as contextual input for IBM Granite 4h Small through IBM watsonx.ai. By combining retrieved recipe knowledge with AI-powered reasoning and generation, the system produces personalized recipe recommendations, detailed cooking instructions, ingredient substitutions, cooking tips, and dietary guidance tailored to the user's available ingredients and preferences.
