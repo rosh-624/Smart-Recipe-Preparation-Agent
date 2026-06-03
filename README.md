@@ -75,13 +75,17 @@ The project uses `recipes.csv` as a recipe knowledge base. Based on user-entered
 ## RAG Workflow
 
 User Ingredients
-       ↓
-recipes.csv Knowledge Base
-       ↓
+        ↓
+Recipe Knowledge Base (recipes.csv)
+        ↓
 Recipe Retrieval
-       ↓
+        ↓
+Context Augmentation
+        ↓
 IBM Granite 4h Small
-       ↓
+        ↓
 Recipe Generation
+        ↓
+Final Recipe Response
 
 The system retrieves relevant recipes from the recipe knowledge base and uses IBM Granite to generate personalized cooking instructions, substitutions, cooking tips, and dietary recommendations.
