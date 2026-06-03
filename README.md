@@ -58,6 +58,10 @@ egg, onion, tomato
 * Cooking Tips
 * Dietary Recommendations
 
+## Project Outcome
+
+The Smart Recipe Preparation Agent successfully retrieves relevant recipes from a recipe knowledge base and uses IBM Granite 4h Small to generate personalized recipe recommendations, cooking instructions, ingredient substitutions, cooking tips, and dietary guidance based on available ingredients.
+
 ## Future Enhancements
 
 * RAG-based retrieval with vector database
