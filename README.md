@@ -68,3 +68,18 @@ egg, onion, tomato
   ## RAG Implementation
   
 The project uses `recipes.csv` as a recipe knowledge base. Based on user-entered ingredients, the app retrieves the most relevant recipes and sends them as context to IBM Granite 4h Small for final recipe generation.
+
+
+## RAG Workflow
+
+User Ingredients
+↓
+recipes.csv Knowledge Base
+↓
+Recipe Retrieval
+↓
+IBM Granite 4h Small
+↓
+Recipe Generation
+
+The system retrieves relevant recipes from the recipe knowledge base and uses IBM Granite to generate personalized cooking instructions, substitutions, cooking tips, and dietary recommendations.
